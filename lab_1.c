@@ -40,7 +40,7 @@ int is_simple(int number)
     }
     else
     {
-        for (int i = 2; i <= (int)sqrt(number); i++)
+        for (int i = 2; i <= (int)sqrt((double)number); i++)
         {
             if (number % i == 0)
             {
