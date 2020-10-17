@@ -1,7 +1,8 @@
 ﻿// lab_1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 
-#include <iostream>
+#include <stdio.h>
+#include <math.h>
 
 int is_simple(int number);
 
@@ -36,7 +37,7 @@ int is_simple(int number)
 {
     if (number <= 1)
     {
-        printf("Number less than 2. Can't be simple or composite number");
+        printf("Number less than 2. Can't be simple or composite number.\n");
 
         return -1;
     }
